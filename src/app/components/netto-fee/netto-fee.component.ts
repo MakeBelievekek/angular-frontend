@@ -21,6 +21,10 @@ export class NettoFeeComponent implements OnInit {
   datePickerConfig: Partial<BsDatepickerConfig>;
   maxNumberOfRelatives: number [];
   split: string[];
+  customerDiscountValues: any[];
+  paymentMethodDiscountValues: any[];
+  campaignDiscountValues: any[];
+
 
   constructor(private insuranceRepositoryService: InsuranceRepositoryService, private formBuilder: FormBuilder, private feeCalculationService: FeeCalculationService) {
     this.feeForm = this.formBuilder.group(
@@ -32,6 +36,10 @@ export class NettoFeeComponent implements OnInit {
         lengthOfInsurance: [3],
         numberOfInsured: [null],
         chargeFrequency: [null],
+        policyDiscount: [],
+        paymentMethodDiscount: [],
+        customerDiscount: [],
+        campaignDiscount: [],
       },
     );
     this.maxNumberOfRelatives = this.insuranceRepositoryService.getMaxNumberOfRelatives();
@@ -42,6 +50,9 @@ export class NettoFeeComponent implements OnInit {
       },
     );
     this.seqs = this.insuranceRepositoryService.getSeq();
+    this.campaignDiscountValues = this.insuranceRepositoryService.getCampaignDiscountValues();
+    this.paymentMethodDiscountValues = this.insuranceRepositoryService.getPaymentMethodDiscountValues();
+    this.customerDiscountValues = this.insuranceRepositoryService.getCustomerDiscountValues()
   }
 
   ngOnInit(): void {}

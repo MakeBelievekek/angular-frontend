@@ -6,7 +6,7 @@ import { NetFeeModel } from '../models/netFee.model';
 import { ResultModel } from '../models/result.model';
 
 const API_URL = 'https://formulative.io/api/calculate';
-const API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Zvcm11bGF0aXZlLmlvL2FwaSIsInN1YiI6IjM5YTI5YWFiNmNkMDQ0MTVjMzNlZjIwNWMxZGRhNzdjIiwiYXVkIjoiaHR0cHM6Ly9mb3JtdWxhdGl2ZS5pby9hcGkiLCJleHAiOjE1ODQ3NDk3MTIsIm93bmVyIjoiLU0yWXBUdExzZURaZnlRc290eVkiLCJpYXQiOjE1ODQ2NjMzMTF9.ctEdZPCTeLHwproY-H0olWTTeFRi9PAsi2SN23pVcQA';
+const API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Zvcm11bGF0aXZlLmlvL2FwaSIsInN1YiI6IjM5YTI5YWFiNmNkMDQ0MTVjMzNlZjIwNWMxZGRhNzdjIiwiYXVkIjoiaHR0cHM6Ly9mb3JtdWxhdGl2ZS5pby9hcGkiLCJleHAiOjE1ODQ4MTQwODMsIm93bmVyIjoiLU0yWXBUdExzZURaZnlRc290eVkiLCJpYXQiOjE1ODQ3Mjc2ODN9.gvl7CyfsFq82iB0WlSFsSl5BT6oydPfFgFrIpc46Yyc';
 
 const httpOptions = {
   headers: new HttpHeaders({

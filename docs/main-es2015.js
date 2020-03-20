@@ -270,7 +270,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function NettoFeeComponent_div_19_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "input", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "input", 41);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -278,24 +278,54 @@ function NettoFeeComponent_div_19_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", "result: " + (ctx_r0.result == null ? null : ctx_r0.result.yearlyFee));
 } }
 function NettoFeeComponent_option_26_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 42);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const numberOfRelatives_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", numberOfRelatives_r3);
+    const numberOfRelatives_r6 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", numberOfRelatives_r6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](numberOfRelatives_r3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](numberOfRelatives_r6);
 } }
-function NettoFeeComponent_option_52_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 34);
+function NettoFeeComponent_option_56_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 42);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const seq_r4 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", seq_r4.value);
+    const seq_r7 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", seq_r7.value);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](seq_r4.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](seq_r7.name);
+} }
+function NettoFeeComponent_option_62_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const paymentMethodDiscount_r8 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", paymentMethodDiscount_r8.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](paymentMethodDiscount_r8.name);
+} }
+function NettoFeeComponent_option_68_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const customerDiscount_r9 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", customerDiscount_r9.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](customerDiscount_r9.name);
+} }
+function NettoFeeComponent_option_74_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const campaignDiscount_r10 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", campaignDiscount_r10.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](campaignDiscount_r10.name);
 } }
 class NettoFeeComponent {
     constructor(insuranceRepositoryService, formBuilder, feeCalculationService) {
@@ -311,6 +341,10 @@ class NettoFeeComponent {
             lengthOfInsurance: [3],
             numberOfInsured: [null],
             chargeFrequency: [null],
+            policyDiscount: [],
+            paymentMethodDiscount: [],
+            customerDiscount: [],
+            campaignDiscount: [],
         });
         this.maxNumberOfRelatives = this.insuranceRepositoryService.getMaxNumberOfRelatives();
         this.datePickerConfig = Object.assign({}, {
@@ -318,6 +352,9 @@ class NettoFeeComponent {
             dateInputFormat: 'YYYY-MM-DD',
         });
         this.seqs = this.insuranceRepositoryService.getSeq();
+        this.campaignDiscountValues = this.insuranceRepositoryService.getCampaignDiscountValues();
+        this.paymentMethodDiscountValues = this.insuranceRepositoryService.getPaymentMethodDiscountValues();
+        this.customerDiscountValues = this.insuranceRepositoryService.getCustomerDiscountValues();
     }
     ngOnInit() { }
     onSubmit() {
@@ -346,7 +383,7 @@ class NettoFeeComponent {
     }
 }
 NettoFeeComponent.ɵfac = function NettoFeeComponent_Factory(t) { return new (t || NettoFeeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_repository_insurance_repository_service__WEBPACK_IMPORTED_MODULE_1__["InsuranceRepositoryService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_fee_calculation_service__WEBPACK_IMPORTED_MODULE_3__["FeeCalculationService"])); };
-NettoFeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NettoFeeComponent, selectors: [["app-netto-fee"]], decls: 57, vars: 6, consts: [[1, "container-fluid"], [1, "row", "justify-content-center"], [1, "col-sm-3", "col-md-6", "col-lg-5"], [1, "row", "justify-content-center", "pt-5"], [1, "col"], [1, "card", "text-white", "bg-info"], ["src", "assets/formulaLogo.png", "height", "70px", 1, "card-img-top"], [1, "card-header", "text-center"], [1, "card-body"], [3, "formGroup"], [1, "row"], ["for", "date"], [1, "col-4", "form-group"], ["type", "text", "placeholder", "Date of Birth", "id", "date", "bsDatepicker", "", 1, "form-control", 3, "bsConfig", "bsValueChange"], ["class", "col", 4, "ngIf"], ["for", "numberOfInsured"], ["name", "numberOfInsured", "formControlName", "numberOfInsured", "id", "numberOfInsured", 1, "custom-select"], ["disabled", "", "value", "null"], [3, "value", 4, "ngFor", "ngForOf"], ["for", "amountOfInsurance", 1, "pt-3"], ["type", "number", "formControlName", "amountOfInsurance", "id", "amountOfInsurance", "placeholder", "Enter amount", 1, "form-control"], ["for", "lengthOfInsurance", 1, "pt-1"], [1, "slidecontainer", "justify-content-center"], ["type", "range", "min", "3", "max", "35", "formControlName", "lengthOfInsurance", "id", "myRange", "id", "lengthOfInsurance", 1, "slider", 3, "change", "mousemove"], [1, "font-weight-bold", "indigo-text", "ml-2", "mt-1"], [1, "col", "text-center"], [1, "col", "text-right"], [1, "font-weight-bold", "indigo-text"], ["for", "chargeFrequency", 1, "pt-3"], ["name", "chargeFrequency", "formControlName", "chargeFrequency", "id", "chargeFrequency", 1, "custom-select"], [1, "row", "justify-content-center", "pt-2", "pb-2"], [1, "col-4", "text-center"], ["type", "button", 1, "btn", "btn-secondary", "btn-lg", "btn-block", 3, "click"], ["type", "text", "id", "result", "placeholder", "result", 1, "form-control", 3, "value"], [3, "value"]], template: function NettoFeeComponent_Template(rf, ctx) { if (rf & 1) {
+NettoFeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NettoFeeComponent, selectors: [["app-netto-fee"]], decls: 79, vars: 9, consts: [[1, "container-fluid"], [1, "row", "justify-content-center"], [1, "col-sm-3", "col-md-6", "col-lg-5"], [1, "row", "justify-content-center", "pt-5"], [1, "col"], [1, "card", "text-white", "bg-info"], ["src", "assets/formulative.png", 1, "card-img-top"], [1, "card-header", "text-center"], [1, "card-body"], [3, "formGroup"], [1, "row"], ["for", "date"], [1, "col-4", "form-group"], ["type", "text", "placeholder", "Date of Birth", "id", "date", "bsDatepicker", "", 1, "form-control", 3, "bsConfig", "bsValueChange"], ["class", "col", 4, "ngIf"], ["for", "numberOfInsured"], ["name", "numberOfInsured", "formControlName", "numberOfInsured", "id", "numberOfInsured", 1, "custom-select"], ["disabled", "", "value", "null"], [3, "value", 4, "ngFor", "ngForOf"], ["for", "amountOfInsurance", 1, "pt-3"], ["type", "number", "formControlName", "amountOfInsurance", "id", "amountOfInsurance", "placeholder", "Enter amount", 1, "form-control"], ["for", "lengthOfInsurance", 1, "pt-1"], [1, "slidecontainer", "justify-content-center"], ["type", "range", "min", "3", "max", "35", "formControlName", "lengthOfInsurance", "id", "myRange", "id", "lengthOfInsurance", 1, "slider", 3, "change", "mousemove"], [1, "font-weight-bold", "indigo-text", "ml-2", "mt-1"], [1, "col", "text-center"], [1, "col", "text-right"], [1, "font-weight-bold", "indigo-text"], ["for", "policyDiscount", 1, "pt-3"], ["type", "number", "formControlName", "policyDiscount", "id", "policyDiscount", "placeholder", "Enter amount", 1, "form-control"], ["for", "chargeFrequency", 1, "pt-3"], ["name", "chargeFrequency", "formControlName", "chargeFrequency", "id", "chargeFrequency", 1, "custom-select"], ["for", "paymentMethodDiscount", 1, "pt-3"], ["name", "paymentMethodDiscount", "formControlName", "paymentMethodDiscount", "id", "paymentMethodDiscount", 1, "custom-select"], ["for", "customerDiscount", 1, "pt-3"], ["name", "customerDiscount", "formControlName", "customerDiscount", "id", "customerDiscount", 1, "custom-select"], ["for", "campaignDiscount", 1, "pt-3"], ["name", "campaignDiscount", "formControlName", "campaignDiscount", "id", "campaignDiscount", 1, "custom-select"], [1, "row", "justify-content-center", "pt-2", "pb-2"], [1, "col-4", "text-center"], ["type", "button", 1, "btn", "btn-secondary", "btn-lg", "btn-block", 3, "click"], ["type", "text", "id", "result", "placeholder", "result", 1, "form-control", 3, "value"], [3, "value"]], template: function NettoFeeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -419,26 +456,59 @@ NettoFeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "label", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Charge frequency");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Policy discount");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "select", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "option", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "-- Charge frequency --");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, NettoFeeComponent_option_52_Template, 2, 2, "option", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "input", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "label", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Charge frequency");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "select", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "option", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "-- Charge frequency --");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](56, NettoFeeComponent_option_56_Template, 2, 2, "option", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "label", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Payment method");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "select", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "option", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "-- Payment method --");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](62, NettoFeeComponent_option_62_Template, 2, 2, "option", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "label", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Customer discount");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "select", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "option", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "-- Customer discount --");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](68, NettoFeeComponent_option_68_Template, 2, 2, "option", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "label", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Campaign discount");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "select", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "option", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "-- Campaign discount --");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](74, NettoFeeComponent_option_74_Template, 2, 2, "option", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "button", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NettoFeeComponent_Template_button_click_55_listener() { return ctx.onSubmit(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Submit");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "button", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NettoFeeComponent_Template_button_click_77_listener() { return ctx.onSubmit(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Submit");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -458,8 +528,14 @@ NettoFeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.maxNumberOfRelatives);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.range);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.seqs);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.paymentMethodDiscountValues);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.customerDiscountValues);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.campaignDiscountValues);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_4__["BsDatepickerInputDirective"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_4__["BsDatepickerDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_x"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NumberValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["RangeValueAccessor"]], styles: [".slidecontainer[_ngcontent-%COMP%] {\r\n  width: 100%; \r\n}\r\n\r\n\r\n\r\n.slider[_ngcontent-%COMP%]:hover {\r\n  opacity: 1; \r\n}\r\n\r\n\r\n\r\n.slider[_ngcontent-%COMP%] {\r\n  -webkit-appearance: none;\r\n  width: 100%;\r\n  height: 15px;\r\n  border-radius: 5px;\r\n  background: #d3d3d3;\r\n  outline: none;\r\n  opacity: 0.7;\r\n  transition: opacity .2s;\r\n}\r\n\r\n\r\n\r\n.slider[_ngcontent-%COMP%]::-webkit-slider-thumb {\r\n  -webkit-appearance: none;\r\n  appearance: none;\r\n  width: 25px;\r\n  height: 25px;\r\n  border-radius: 50%;\r\n  background: #4CAF50;\r\n  cursor: pointer;\r\n}\r\n\r\n.slider[_ngcontent-%COMP%]::-moz-range-thumb {\r\n  width: 25px;\r\n  height: 25px;\r\n  border-radius: 50%;\r\n  background: #4CAF50;\r\n  cursor: pointer;\r\n}\r\n\r\nbody[_ngcontent-%COMP%]   .bs-datepicker-container[_ngcontent-%COMP%]   .bs-datepicker-head[_ngcontent-%COMP%] {\r\n  background-color: #fff !important;\r\n}\r\n\r\nbody[_ngcontent-%COMP%]   .bs-datepicker-container[_ngcontent-%COMP%]   .bs-datepicker-head[_ngcontent-%COMP%]   *[_ngcontent-%COMP%] {\r\n  color: #000 !important;\r\n}\r\n\r\n.containerClass[_ngcontent-%COMP%]{\r\n  color: #000 !important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9uZXR0by1mZWUvbmV0dG8tZmVlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXLEVBQUUsbUNBQW1DO0FBQ2xEOztBQUVBLHVCQUF1Qjs7QUFDdkI7RUFDRSxVQUFVLEVBQUUsOEJBQThCO0FBQzVDOztBQUVBLHNCQUFzQjs7QUFDdEI7RUFDRSx3QkFBd0I7RUFDeEIsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLGFBQWE7RUFDYixZQUFZO0VBRVosdUJBQXVCO0FBQ3pCOztBQUVBLGdIQUFnSDs7QUFDaEg7RUFDRSx3QkFBd0I7RUFDeEIsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLGVBQWU7QUFDakI7O0FBRUE7RUFDRSxpQ0FBaUM7QUFDbkM7O0FBRUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxzQkFBc0I7QUFDeEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL25ldHRvLWZlZS9uZXR0by1mZWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zbGlkZWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDEwMCU7IC8qIFdpZHRoIG9mIHRoZSBvdXRzaWRlIGNvbnRhaW5lciAqL1xyXG59XHJcblxyXG4vKiBNb3VzZS1vdmVyIGVmZmVjdHMgKi9cclxuLnNsaWRlcjpob3ZlciB7XHJcbiAgb3BhY2l0eTogMTsgLyogRnVsbHkgc2hvd24gb24gbW91c2Utb3ZlciAqL1xyXG59XHJcblxyXG4vKiBUaGUgc2xpZGVyIGl0c2VsZiAqL1xyXG4uc2xpZGVyIHtcclxuICAtd2Via2l0LWFwcGVhcmFuY2U6IG5vbmU7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxNXB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICBiYWNrZ3JvdW5kOiAjZDNkM2QzO1xyXG4gIG91dGxpbmU6IG5vbmU7XHJcbiAgb3BhY2l0eTogMC43O1xyXG4gIC13ZWJraXQtdHJhbnNpdGlvbjogLjJzO1xyXG4gIHRyYW5zaXRpb246IG9wYWNpdHkgLjJzO1xyXG59XHJcblxyXG4vKiBUaGUgc2xpZGVyIGhhbmRsZSAodXNlIC13ZWJraXQtIChDaHJvbWUsIE9wZXJhLCBTYWZhcmksIEVkZ2UpIGFuZCAtbW96LSAoRmlyZWZveCkgdG8gb3ZlcnJpZGUgZGVmYXVsdCBsb29rKSAqL1xyXG4uc2xpZGVyOjotd2Via2l0LXNsaWRlci10aHVtYiB7XHJcbiAgLXdlYmtpdC1hcHBlYXJhbmNlOiBub25lO1xyXG4gIGFwcGVhcmFuY2U6IG5vbmU7XHJcbiAgd2lkdGg6IDI1cHg7XHJcbiAgaGVpZ2h0OiAyNXB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBiYWNrZ3JvdW5kOiAjNENBRjUwO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLnNsaWRlcjo6LW1vei1yYW5nZS10aHVtYiB7XHJcbiAgd2lkdGg6IDI1cHg7XHJcbiAgaGVpZ2h0OiAyNXB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBiYWNrZ3JvdW5kOiAjNENBRjUwO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuYm9keSAuYnMtZGF0ZXBpY2tlci1jb250YWluZXIgLmJzLWRhdGVwaWNrZXItaGVhZCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZiAhaW1wb3J0YW50O1xyXG59XHJcblxyXG5ib2R5IC5icy1kYXRlcGlja2VyLWNvbnRhaW5lciAuYnMtZGF0ZXBpY2tlci1oZWFkICoge1xyXG4gIGNvbG9yOiAjMDAwICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5jb250YWluZXJDbGFzc3tcclxuICBjb2xvcjogIzAwMCAhaW1wb3J0YW50O1xyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NettoFeeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -494,6 +570,20 @@ class InsuranceRepositoryService {
             { name: 'quarterly', value: 3 },
             { name: 'per month', value: 4 },
         ];
+        this.customerDiscountValues = [
+            { name: '0 %', value: 1 },
+            { name: '10 %', value: 2 },
+        ];
+        this.paymentMethodDiscountValues = [
+            { name: 'cash', value: 1 },
+            { name: 'bank k&h', value: 2 },
+            { name: 'bank', value: 1 },
+            { name: 'bank', value: 1 },
+        ];
+        this.campaignDiscountValues = [
+            { name: '0 %', value: 1 },
+            { name: '10 %', value: 2 },
+        ];
     }
     getSeq() {
         return this.seq;
@@ -502,13 +592,22 @@ class InsuranceRepositoryService {
         return Array.from(Array(5)).map((x, i) => i + 1);
         ;
     }
+    getCustomerDiscountValues() {
+        return this.campaignDiscountValues;
+    }
+    getCampaignDiscountValues() {
+        return this.campaignDiscountValues;
+    }
+    getPaymentMethodDiscountValues() {
+        return this.paymentMethodDiscountValues;
+    }
 }
 InsuranceRepositoryService.ɵfac = function InsuranceRepositoryService_Factory(t) { return new (t || InsuranceRepositoryService)(); };
 InsuranceRepositoryService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: InsuranceRepositoryService, factory: InsuranceRepositoryService.ɵfac, providedIn: 'root' });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InsuranceRepositoryService, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{
-                providedIn: 'root'
+                providedIn: 'root',
             }]
     }], function () { return []; }, null); })();
 
@@ -532,7 +631,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const API_URL = 'https://formulative.io/api/calculate';
-const API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Zvcm11bGF0aXZlLmlvL2FwaSIsInN1YiI6IjM5YTI5YWFiNmNkMDQ0MTVjMzNlZjIwNWMxZGRhNzdjIiwiYXVkIjoiaHR0cHM6Ly9mb3JtdWxhdGl2ZS5pby9hcGkiLCJleHAiOjE1ODQ3NDk3MTIsIm93bmVyIjoiLU0yWXBUdExzZURaZnlRc290eVkiLCJpYXQiOjE1ODQ2NjMzMTF9.ctEdZPCTeLHwproY-H0olWTTeFRi9PAsi2SN23pVcQA';
+const API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Zvcm11bGF0aXZlLmlvL2FwaSIsInN1YiI6IjM5YTI5YWFiNmNkMDQ0MTVjMzNlZjIwNWMxZGRhNzdjIiwiYXVkIjoiaHR0cHM6Ly9mb3JtdWxhdGl2ZS5pby9hcGkiLCJleHAiOjE1ODQ4MTQwODMsIm93bmVyIjoiLU0yWXBUdExzZURaZnlRc290eVkiLCJpYXQiOjE1ODQ3Mjc2ODN9.gvl7CyfsFq82iB0WlSFsSl5BT6oydPfFgFrIpc46Yyc';
 const httpOptions = {
     headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]({
         'content-Type': 'application/json; charset=utf-8',

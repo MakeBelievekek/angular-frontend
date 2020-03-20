@@ -5,7 +5,7 @@
       <div class="row justify-content-center pt-5">
         <div class="col">
           <div class="card text-white bg-info">
-            <img class="card-img-top" src="assets/formulaLogo.png" height="70px">
+            <img class="card-img-top" src="assets/formulative.png">
 
             <div class="card-header text-center">
               <h2>Netto Fee Calc</h2>
@@ -31,7 +31,8 @@
                       </div>
 
                       <div class="col" *ngIf="this.result?.yearlyFee">
-                        <input type="text" id = "result" class="form-control" [value]="'result: ' + this.result?.yearlyFee" placeholder="result">
+                        <input type="text" id="result" class="form-control"
+                               [value]="'result: ' + this.result?.yearlyFee" placeholder="result">
                       </div>
 
                     </div>
@@ -75,19 +76,45 @@
 
                     </div>
 
-                    <label for="chargeFrequency" class="pt-3">Charge frequency</label>
-                    <div>
-                      <select class="custom-select" name="chargeFrequency" formControlName="chargeFrequency"
-                              id="chargeFrequency">
-                        <option disabled value=null>&#45;&#45; Charge frequency &#45;&#45;</option>
-                        <option *ngFor="let seq of this.seqs" value="{{seq.value}}">{{seq.name}}</option>
-                      </select>
-                    </div>
-
+                    <label for="policyDiscount" class="pt-3">Policy discount</label>
+                    <input type="number" class="form-control" formControlName="policyDiscount" id="policyDiscount"
+                           placeholder="Enter amount">
 
                   </div>
                 </div>
 
+                <div class="row">
+                  <div class="col">
+                    <label for="chargeFrequency" class="pt-3">Charge frequency</label>
+
+                    <select class="custom-select" name="chargeFrequency" formControlName="chargeFrequency"
+                            id="chargeFrequency">
+                      <option disabled value=null>&#45;&#45; Charge frequency &#45;&#45;</option>
+                      <option *ngFor="let seq of this.seqs" value="{{seq.value}}">{{seq.name}}</option>
+                    </select>
+                    <label for="paymentMethodDiscount" class="pt-3">Payment method</label>
+                    <select class="custom-select" name="paymentMethodDiscount" formControlName="paymentMethodDiscount"
+                            id="paymentMethodDiscount">
+                      <option disabled value=null>&#45;&#45; Payment method &#45;&#45;</option>
+                      <option *ngFor="let paymentMethodDiscount of this.paymentMethodDiscountValues"
+                              value="{{paymentMethodDiscount.value}}">{{paymentMethodDiscount.name}}</option>
+                    </select>
+                    <label for="customerDiscount" class="pt-3">Customer discount</label>
+                    <select class="custom-select" name="customerDiscount" formControlName="customerDiscount"
+                            id="customerDiscount">
+                      <option disabled value=null>&#45;&#45; Customer discount &#45;&#45;</option>
+                      <option *ngFor="let customerDiscount of this.customerDiscountValues"
+                              value="{{customerDiscount.value}}">{{customerDiscount.name}}</option>
+                    </select>
+                    <label for="campaignDiscount" class="pt-3">Campaign discount</label>
+                    <select class="custom-select" name="campaignDiscount" formControlName="campaignDiscount"
+                            id="campaignDiscount">
+                      <option disabled value=null>&#45;&#45; Campaign discount &#45;&#45;</option>
+                      <option *ngFor="let campaignDiscount of this.campaignDiscountValues"
+                              value="{{campaignDiscount.value}}">{{campaignDiscount.name}}</option>
+                    </select>
+                  </div>
+                </div>
 
               </form>
 

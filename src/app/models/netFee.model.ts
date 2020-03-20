@@ -6,4 +6,8 @@ export interface NetFeeModel {
   lengthOfInsurance: number;
   numberOfInsured: number;
   chargeFrequency: number;
+  policyDiscount: number;
+  paymentMethodDiscount: number;
+  customerDiscount: number;
+  campaignDiscount: number;
 }
