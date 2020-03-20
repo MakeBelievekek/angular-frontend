@@ -74,6 +74,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/components/netto-fee/netto-fee.component.ts");
 
     var routes = [{
+      path: '',
+      component: _components_netto_fee_netto_fee_component__WEBPACK_IMPORTED_MODULE_2__["NettoFeeComponent"]
+    }, {
       path: 'nettoFee',
       component: _components_netto_fee_netto_fee_component__WEBPACK_IMPORTED_MODULE_2__["NettoFeeComponent"]
     }, {

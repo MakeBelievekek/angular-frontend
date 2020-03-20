@@ -42,6 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
+    { path: '', component: _components_netto_fee_netto_fee_component__WEBPACK_IMPORTED_MODULE_2__["NettoFeeComponent"] },
     { path: 'nettoFee', component: _components_netto_fee_netto_fee_component__WEBPACK_IMPORTED_MODULE_2__["NettoFeeComponent"] },
     { path: '', redirectTo: 'nettoFee', pathMatch: 'full' },
     { path: '**', component: _components_netto_fee_netto_fee_component__WEBPACK_IMPORTED_MODULE_2__["NettoFeeComponent"] },
