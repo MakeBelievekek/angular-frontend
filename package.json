@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "githubpage": "ng build --outputPath=docs",
+    "githubpage": "ng build --outputPath=docs --base-href=https://makebelievekek.github.io/angular-frontend/",
     "e2e": "ng e2e"
   },
   "private": true,
