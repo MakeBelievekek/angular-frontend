@@ -4,6 +4,7 @@ import { NettoFeeComponent } from './components/netto-fee/netto-fee.component';
 
 
 const routes: Routes = [
+  {path: '', component: NettoFeeComponent},
   {path: 'nettoFee', component: NettoFeeComponent},
   {path: '', redirectTo: 'nettoFee', pathMatch: 'full'},
   {path: '**', component: NettoFeeComponent},
