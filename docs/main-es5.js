@@ -505,7 +505,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "input", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "input", 33);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -521,7 +521,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function NettoFeeComponent_option_26_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -539,9 +539,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NettoFeeComponent_option_51_Template(rf, ctx) {
+    function NettoFeeComponent_option_52_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -633,9 +633,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     NettoFeeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: NettoFeeComponent,
       selectors: [["app-netto-fee"]],
-      decls: 56,
+      decls: 57,
       vars: 6,
-      consts: [[1, "container-fluid"], [1, "row", "justify-content-center"], [1, "col-sm-3", "col-md-6", "col-lg-8"], [1, "row", "justify-content-center", "pt-5"], [1, "col"], [1, "card", "text-white", "bg-info"], ["src", "assets/formulaLogo.png", "height", "70px", 1, "card-img-top"], [1, "card-header", "text-center"], [1, "card-body"], [3, "formGroup"], [1, "row"], ["for", "date"], [1, "col-4", "form-group"], ["type", "text", "placeholder", "Date of Birth", "id", "date", "bsDatepicker", "", 1, "form-control", 3, "bsConfig", "bsValueChange"], ["class", "col", 4, "ngIf"], ["for", "numberOfInsured"], ["name", "numberOfInsured", "formControlName", "numberOfInsured", "id", "numberOfInsured", 1, "custom-select"], ["disabled", "", "value", "null"], [3, "value", 4, "ngFor", "ngForOf"], ["for", "amountOfInsurance", 1, "pt-3"], ["type", "number", "formControlName", "amountOfInsurance", "id", "amountOfInsurance", "placeholder", "Enter amount", 1, "form-control"], ["for", "lengthOfInsurance", 1, "pt-1"], [1, "col-1"], [1, "font-weight-bold", "indigo-text", "ml-2", "mt-1"], [1, "col", "justify-content-end"], [1, "slidecontainer", "justify-content-center"], ["type", "range", "min", "3", "max", "35", "formControlName", "lengthOfInsurance", "id", "myRange", "id", "lengthOfInsurance", 1, "slider", 3, "change", "mousemove"], [1, "font-weight-bold", "indigo-text"], [1, "col", "text-center"], ["for", "chargeFrequency", 1, "pt-3"], ["name", "chargeFrequency", "formControlName", "chargeFrequency", "id", "chargeFrequency", 1, "custom-select"], [1, "row", "justify-content-center", "pt-2", "pb-2"], [1, "col-4", "text-center"], ["type", "button", 1, "btn", "btn-secondary", "btn-lg", "btn-block", 3, "click"], ["type", "text", "id", "result", "placeholder", "result", 1, "form-control", 3, "value"], [3, "value"]],
+      consts: [[1, "container-fluid"], [1, "row", "justify-content-center"], [1, "col-sm-3", "col-md-6", "col-lg-5"], [1, "row", "justify-content-center", "pt-5"], [1, "col"], [1, "card", "text-white", "bg-info"], ["src", "assets/formulaLogo.png", "height", "70px", 1, "card-img-top"], [1, "card-header", "text-center"], [1, "card-body"], [3, "formGroup"], [1, "row"], ["for", "date"], [1, "col-4", "form-group"], ["type", "text", "placeholder", "Date of Birth", "id", "date", "bsDatepicker", "", 1, "form-control", 3, "bsConfig", "bsValueChange"], ["class", "col", 4, "ngIf"], ["for", "numberOfInsured"], ["name", "numberOfInsured", "formControlName", "numberOfInsured", "id", "numberOfInsured", 1, "custom-select"], ["disabled", "", "value", "null"], [3, "value", 4, "ngFor", "ngForOf"], ["for", "amountOfInsurance", 1, "pt-3"], ["type", "number", "formControlName", "amountOfInsurance", "id", "amountOfInsurance", "placeholder", "Enter amount", 1, "form-control"], ["for", "lengthOfInsurance", 1, "pt-1"], [1, "slidecontainer", "justify-content-center"], ["type", "range", "min", "3", "max", "35", "formControlName", "lengthOfInsurance", "id", "myRange", "id", "lengthOfInsurance", 1, "slider", 3, "change", "mousemove"], [1, "font-weight-bold", "indigo-text", "ml-2", "mt-1"], [1, "col", "text-center"], [1, "col", "text-right"], [1, "font-weight-bold", "indigo-text"], ["for", "chargeFrequency", 1, "pt-3"], ["name", "chargeFrequency", "formControlName", "chargeFrequency", "id", "chargeFrequency", 1, "custom-select"], [1, "row", "justify-content-center", "pt-2", "pb-2"], [1, "col-4", "text-center"], ["type", "button", 1, "btn", "btn-secondary", "btn-lg", "btn-block", 3, "click"], ["type", "text", "id", "result", "placeholder", "result", 1, "form-control", 3, "value"], [3, "value"]],
       template: function NettoFeeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -732,25 +732,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "span", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 22);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "3");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "input", 23);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 24);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 25);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "input", 26);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NettoFeeComponent_Template_input_change_38_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NettoFeeComponent_Template_input_change_35_listener() {
             return ctx.length();
-          })("mousemove", function NettoFeeComponent_Template_input_mousemove_38_listener() {
+          })("mousemove", function NettoFeeComponent_Template_input_mousemove_35_listener() {
             return ctx.length();
           });
 
@@ -760,11 +750,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "span", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "35");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "span", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "3");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "span", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "span", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "35");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -772,33 +786,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "label", 28);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 28);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Charge frequency");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "label", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "select", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Charge frequency");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "option", 17);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "select", 30);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "option", 17);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "-- Charge frequency --");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "-- Charge frequency --");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, NettoFeeComponent_option_51_Template, 2, 2, "option", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, NettoFeeComponent_option_52_Template, 2, 2, "option", 18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -814,17 +818,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 30);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 31);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "button", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "button", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NettoFeeComponent_Template_button_click_54_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NettoFeeComponent_Template_button_click_55_listener() {
             return ctx.onSubmit();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Submit");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Submit");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -860,11 +864,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.maxNumberOfRelatives);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.range, " ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.range);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.seqs);
         }
