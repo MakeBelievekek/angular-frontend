@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import contains from '@popperjs/core/lib/dom-utils/contains';
+import { log } from 'util';
 import { NetFeeModel } from '../../models/netFee.model';
 import { ResultModel } from '../../models/result.model';
 import { InsuranceRepositoryService } from '../../repository/insurance-repository.service';
 import { FeeCalculationService } from '../../services/fee-calculation.service';
 import { BsDatepickerConfig } from 'ngx-bootstrap';
+import { JwtService } from '../../services/jwt.service';
 
 @Component({
   selector: 'app-netto-fee',
@@ -26,7 +28,11 @@ export class NettoFeeComponent implements OnInit {
   campaignDiscountValues: any[];
 
 
-  constructor(private insuranceRepositoryService: InsuranceRepositoryService, private formBuilder: FormBuilder, private feeCalculationService: FeeCalculationService) {
+  constructor(private insuranceRepositoryService: InsuranceRepositoryService,
+              private formBuilder: FormBuilder,
+              private feeCalculationService: FeeCalculationService,
+              private jwt: JwtService,
+  ) {
     this.feeForm = this.formBuilder.group(
       {
         day: [],
@@ -52,7 +58,7 @@ export class NettoFeeComponent implements OnInit {
     this.seqs = this.insuranceRepositoryService.getSeq();
     this.campaignDiscountValues = this.insuranceRepositoryService.getCampaignDiscountValues();
     this.paymentMethodDiscountValues = this.insuranceRepositoryService.getPaymentMethodDiscountValues();
-    this.customerDiscountValues = this.insuranceRepositoryService.getCustomerDiscountValues()
+    this.customerDiscountValues = this.insuranceRepositoryService.getCustomerDiscountValues();
   }
 
   ngOnInit(): void {}
@@ -85,6 +91,16 @@ export class NettoFeeComponent implements OnInit {
     this.split = replace.split('-', 3);
 
     console.log(this.feeForm.value);
+  }
+
+  paraszt() {
+    this.jwt.parasztLogin().subscribe(
+      value => console.log(value),
+    );
+  }
+
+  nemParaszt() {
+    this.jwt.login().subscribe()
   }
 }
 
